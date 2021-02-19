@@ -1,0 +1,21 @@
+
+<mat-card>
+  username : {{name}} <br><br>
+  Email : {{email}} <br><br>
+
+  Sum of {{a}} and {{b}} is {{c}}
+
+  <br><br>
+
+  <button mat-raised-button color="warn" (click)="getMsg()" [disabled]="btnchange">Get Message</button>
+  <br><br>
+
+  <p>{{msg}}</p>
+</mat-card>
+
+<br> <br>
+<mat-card>
+<img [src]="url">
+</mat-card>
+
+
